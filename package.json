@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "npx tailwindcss -i ./resources/css/style.css -o ./dist/pulse-spatie-health.css --watch",
+    "build": "npx tailwindcss -i ./resources/css/style.css -o ./dist/pulse-spatie-health.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
