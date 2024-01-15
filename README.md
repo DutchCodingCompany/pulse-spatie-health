@@ -1,6 +1,6 @@
 # Pulse Spatie Health Card
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/bramr94/pulse-spatie-health.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/dutchcodingcompany/pulse-spatie-health.svg?style=flat-square)](https://packagist.org/packages/DutchCodingCompany/pulse-spatie-health)
 
 Display the results of the [spatie/laravel-health](https://spatie.be/docs/laravel-health/v1/introduction) package on the [Laravel Pulse](https://pulse.laravel.com/) dashboard.
 
@@ -10,7 +10,7 @@ Display the results of the [spatie/laravel-health](https://spatie.be/docs/larave
 You can install the package via composer:
 
 ```bash
-composer require bramr94/pulse-spatie-health
+composer require dutchcodingcompany/pulse-spatie-health
 ```
 
 ## Usage

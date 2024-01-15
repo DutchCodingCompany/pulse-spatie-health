@@ -1,3 +1,3 @@
 # Changelog
 
-All notable changes to `:bramr94/pulse-spatie-health` will be documented in this file.
+All notable changes to `:DutchCodingCompany/pulse-spatie-health` will be documented in this file.

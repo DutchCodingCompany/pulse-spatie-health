@@ -1,6 +1,6 @@
 <?php
 
-namespace Bramr94\PulseSpatieHealth\Livewire;
+namespace DutchCodingCompany\PulseSpatieHealth\Livewire;
 
 use Illuminate\Contracts\View\View;
 use Laravel\Pulse\Livewire\Card;
