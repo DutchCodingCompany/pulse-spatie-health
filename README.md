@@ -1,6 +1,6 @@
 # Pulse Spatie Health Card
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/dutchcodingcompany/pulse-spatie-health.svg?style=flat-square)](https://packagist.org/packages/DutchCodingCompany/pulse-spatie-health)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/dutchcodingcompany/pulse-spatie-health.svg?style=flat-square)](https://packagist.org/packages/dutchcodingcompany/pulse-spatie-health)
 
 Display the results of the [spatie/laravel-health](https://spatie.be/docs/laravel-health/v1/introduction) package on the [Laravel Pulse](https://pulse.laravel.com/) dashboard.
 

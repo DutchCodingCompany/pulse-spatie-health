@@ -1,3 +1,3 @@
 # Changelog
 
-All notable changes to `:DutchCodingCompany/pulse-spatie-health` will be documented in this file.
+All notable changes to `:dutchcodingcompany/pulse-spatie-health` will be documented in this file.

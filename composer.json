@@ -1,12 +1,12 @@
 {
-    "name": "DutchCodingCompany/pulse-spatie-health",
+    "name": "dutchcodingcompany/pulse-spatie-health",
     "description": " A Laravel Pulse card to show the results of the Spatie Health package. ",
     "keywords": [
         "DutchCodingCompany",
         "laravel",
         "pulse-spatie-health"
     ],
-    "homepage": "https://github.com/DutchCodingCompany/pulse-spatie-health",
+    "homepage": "https://github.com/dutchcodingcompany/pulse-spatie-health",
     "license": "MIT",
     "authors": [
         {
