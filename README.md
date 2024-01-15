@@ -35,6 +35,16 @@ Now you can add the card to the dashboard view (`resources/views/vendor/pulse/da
 
 Follow the [spatie/laravel-health](https://spatie.be/docs/laravel-health/v1/installation-setup) documentation to configure the health checks.
 
+## Customization
+
+Optionally you can publish the config file with:
+
+```bash
+php artisan vendor:publish --tag="pulse-spatie-health-config"
+```
+
+You can use the config to hide checks from the pulse dashboard. This can be useful if you want to hide checks that are not relevant for the dashboard.
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
