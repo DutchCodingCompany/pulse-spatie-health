@@ -4,6 +4,8 @@
 
 Display the results of the [spatie/laravel-health](https://spatie.be/docs/laravel-health/v1/introduction) package on the [Laravel Pulse](https://pulse.laravel.com/) dashboard.
 
+![example-screenshot.png](docs-assets%2Fscreenshots%2Fexample-screenshot.png)
+
 ---
 ## Installation
 
