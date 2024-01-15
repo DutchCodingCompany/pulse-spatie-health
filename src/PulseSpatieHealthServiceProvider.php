@@ -1,8 +1,8 @@
 <?php
 
-namespace Bramr94\PulseSpatieHealth;
+namespace DutchCodingCompany\PulseSpatieHealth;
 
-use Bramr94\PulseSpatieHealth\Livewire\HealthCheck;
+use DutchCodingCompany\PulseSpatieHealth\Livewire\HealthCheck;
 use Illuminate\Foundation\Application;
 use Livewire\LivewireManager;
 use Spatie\LaravelPackageTools\Package;
