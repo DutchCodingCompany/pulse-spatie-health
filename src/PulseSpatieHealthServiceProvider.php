@@ -14,6 +14,7 @@ class PulseSpatieHealthServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('pulse-spatie-health')
+            ->hasConfigFile('pulse-spatie-health')
             ->hasViews();
     }
 

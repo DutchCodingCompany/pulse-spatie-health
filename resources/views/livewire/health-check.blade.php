@@ -1,7 +1,7 @@
 <x-pulse::card id="pulse-spatie-health" :cols="$cols" :rows="$rows" :class="$class" wire:poll.5s="">
     <x-pulse::card-header
             name="Spatie Health Checks"
-            details="Check results from: {{ $latestResults?->finishedAt->diffForHumans() ?? '-' }}"
+            details="Check results from: {{ $lastRanAt?->diffForHumans() ?? '-' }}"
     >
         <x-slot:icon>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-8 w-8 stroke-gray-300 dark:stroke-gray-700">
@@ -11,7 +11,7 @@
     </x-pulse::card-header>
 
     <x-pulse::scroll :expand="$expand">
-        @if (is_null($latestResults))
+        @if ($results->isEmpty())
             <x-pulse::no-results />
         @else
             <x-pulse::table>
@@ -28,7 +28,7 @@
                     </tr>
                 </x-pulse::thead>
                 <tbody>
-                @foreach($latestResults->storedCheckResults as $result)
+                @foreach($results as $result)
                     <tr class="h-2 first:h-0"></tr>
                     <tr wire:key="{{ $result->name }}">
                         <x-pulse::td>

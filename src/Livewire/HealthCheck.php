@@ -11,8 +11,13 @@ class HealthCheck extends Card
 {
     public function render(ResultStore $resultStore): View
     {
+        $latestResults = $resultStore->latestResults();
+        $results = $latestResults?->storedCheckResults
+            ->filter(fn ($result) => ! in_array($result->name, config('pulse-spatie-health.hide_checks', [])));
+
         return view('pulse-spatie-health::livewire.health-check', [
-            'latestResults' => $resultStore->latestResults(),
+            'lastRanAt' => $latestResults?->finishedAt,
+            'results' => $results ?? collect(),
         ]);
     }
 
