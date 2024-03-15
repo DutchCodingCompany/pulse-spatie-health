@@ -9,6 +9,13 @@ Display the results of the [spatie/laravel-health](https://spatie.be/docs/larave
 ---
 ## Installation
 
+## Installation
+
+| Laravel version | Package version |
+|-----------------|-----------------|
+| 11.x            | ^0.2.x          |
+| 10.x            | 0.1.0           |          
+
 You can install the package via composer:
 
 ```bash
