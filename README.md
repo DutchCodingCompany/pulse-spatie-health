@@ -14,6 +14,7 @@ Display the results of the [spatie/laravel-health](https://spatie.be/docs/larave
 
 | Laravel version | Package version |
 |-----------------|-----------------|
+| 12.x            | ^0.3.x          |
 | 11.x            | ^0.2.x          |
 | 10.x            | 0.1.0           |          
 
